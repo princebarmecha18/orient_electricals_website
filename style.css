@@ -1,12 +1,12 @@
 /*NAV*/
 #home {
-    background-color:  #1b02ff;
+    background-color:  #ffffff;
     padding-bottom: 1cm;
     margin-left:-1cm;
     margin-right:-1cm;
     margin-top:-1cm;
     padding-top: 1cm;
-    padding-bottom: 1cm;
+    padding-bottom: 2cm;
     height: 5mm;
     }
 .profile_name {
@@ -83,7 +83,7 @@ a {
 /*Category*/
 
 .category {
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 8px;
     margin: 15px;
     padding: 20px;
@@ -215,7 +215,7 @@ h1 {
 /*Footer*/
 
 .footer {
-    background-color: #1b02ff;
+    background-color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
