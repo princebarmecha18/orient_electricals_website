@@ -1,49 +1,32 @@
 /*NAV*/
 #home {
-    background-color:  #ffffff;
+    background-color: #ffffff;
     padding-bottom: 1cm;
-    margin-left:-1cm;
-    margin-right:-1cm;
-    margin-top:-1cm;
+    margin-left: -1cm;
+    margin-right: -1cm;
+    margin-top: -1cm;
     padding-top: 1cm;
     padding-bottom: 2cm;
     height: 5mm;
-    }
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
 .profile_name {
     float: left;
-    padding-left: 2cm;
+    padding-left: 45px;
     color: rgb(255, 255, 255);
     font-size: 35px;
     font-size: 2.5em;
     margin-bottom: 20px;
-    
-}
-.profile_name .contact_info {
-font-size: 15px;
-font-style: italic;
-display: flex;
-align-items: center;
-flex-direction: row;
+
 }
 
-.contact_info img {
-width:25px;
-margin-right: 10px;
-float:left;
-}
-
-.container {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(0,0,0);
-    background-color: white;
-    text-align: center;
-}
 
 a {
     text-decoration: none;
@@ -115,19 +98,12 @@ a {
 
 /*Product*/
 
- body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-    text-align: center;
 }
 
 h1 {
@@ -241,6 +217,7 @@ h1 {
     border-radius: 8px;
     margin-bottom: 15px;
 }
+
 /*Responsive*/
 
 /*@media (max-width: 768px) {
@@ -267,4 +244,3 @@ h1 {
         width: 100%;
     }
 }
-
