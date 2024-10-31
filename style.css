@@ -1,88 +1,74 @@
-/*NAV*/
-#home {
-    background-color: #ffffff;
-    padding-bottom: 1cm;
-    margin-left: -1cm;
-    margin-right: -1cm;
-    margin-top: -1cm;
-    padding-top: 1cm;
-    padding-bottom: 2cm;
-    height: 5mm;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.profile_name {
-    float: left;
-    padding-left: 45px;
-    color: rgb(255, 255, 255);
-    font-size: 35px;
-    font-size: 2.5em;
-    margin-bottom: 20px;
-
-}
-
-
-a {
-    text-decoration: none;
-}
-
-/*Introduction*/
-
-.introduction {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #fff;
-    padding: 50px 20px;
-    text-align: center;
-    border-bottom: 3px solid #ddd;
-}
-
-.introduction h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
     color: #333;
 }
 
-.introduction p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    max-width: 800px;
+hr{
+    width: 90%;
+    height: 3px;
+    color:#333;
+    background-color: #333;
     margin: 0 auto;
-    color: #666;
 }
 
-.introduction img {
-    margin-top: 30px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fff;  
+}
+
+a{
+    text-decoration: none;
+    color: #1100ff;
+}
+
+.about-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.about-container img{
+    width:90%;
+    height: 500px;
 }
 
 /*Category*/
-
+.category-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 .category {
-    background-color: #ffffff;
-    border-radius: 8px;
-    margin: 15px;
+    width: 70%;
+    background-color: #dad7d6;
+    border-radius: 16px;
     padding: 20px;
-    /*width: calc(33.333% - 40px);*/
+    margin: 10px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s;
 }
 
 .category:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .category img {
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .category h3 {
@@ -95,83 +81,14 @@ a {
     color: #777;
 }
 
-
-/*Product*/
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-h1 {
-    margin-bottom: 40px;
-    font-size: 2.5em;
-    color: #333;
-}
-
-.tools-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.tool-item {
-    background-color: #fff;
-    border-radius: 8px;
-    margin: 15px;
-    padding: 20px;
-    width: calc(33.333% - 30px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: transform 0.3s ease;
-}
-
-.tool-item:hover {
-    transform: scale(1.05);
-}
-
-.tool-item img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-.tool-item h3 {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.tool-item p {
-    font-size: 1em;
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.tool-item a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.tool-item a:hover {
-    background-color: #0056b3;
-}
-
-
 /*Footer*/
 
 .footer {
-    background-color: #ffffff;
     padding: 20px 0;
     text-align: center;
+    margin-top: 10px;
+    border-top: 2px solid white;
+    
 }
 
 .footer .container {
@@ -188,7 +105,7 @@ h1 {
     min-width: 250px;
 }
 
-.footer .contact-info h3 {
+.footer h3 {
     margin-bottom: 15px;
 }
 
@@ -214,7 +131,8 @@ h1 {
 .footer .social-media img {
     width: 50px;
     height: 50px;
-    border-radius: 8px;
+    border-radius: 12px;
+    border: 1px solid white;
     margin-bottom: 15px;
 }
 
