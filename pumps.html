@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools - Hardware Store</title>
+    <style>
+        /* Basic CSS for styling the Tools listing page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: rgb(255,255,255);
+            background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(254,148,0,1) 50%, rgba(255,255,255,1) 100%);
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .tools-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .tool-item {
+            background-color: #fff;
+            border-radius: 8px;
+            margin: 15px;
+            padding: 20px;
+            width: calc(33.333% - 30px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .tool-item:hover {
+            transform: scale(1.05);
+        }
+
+        .tool-item img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .tool-item h3 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .tool-item p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .tool-item a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .tool-item a:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 768px) {
+            .tool-item {
+                width: calc(50% - 30px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .tool-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Our Pumps Collection</h1>
+        <div class="tools-grid">
+            <!-- Tool 1 -->
+            <div class="tool-item">
+                <img src="pictures/tormac-logo.png">
+                <h3>Tormac Pumps</h3>
+                <p>A reliable hammer for all your construction needs.</p>
+            </div>
+            <!-- Tool 2 -->
+            <div class="tool-item">
+                <img src="pictures/TaroPumpsLogo--Linear.svg">
+                <h3>Texmo Pumps</h3>
+                <p>A set of precision screwdrivers for every job.</p>
+            </div>
+            <!-- Tool 3 -->
+            <div class="tool-item">
+                <img src="pictures/cri-pump-logo.jpeg">
+                <h3>CRI Pumps</h3>
+                <p>An essential adjustable wrench for plumbing and repairs.</p>
+            </div>
+            <!-- Tool 4 -->
+            <div class="tool-item">
+                <img src="pictures/crompton-greaves-logo.webp">
+                <h3>Crompton Pumps</h3>
+                <p>An essential adjustable wrench for plumbing and repairs.</p>
+            </div>
+            <!-- Tool 5 -->
+            <div class="tool-item">
+                <img src="pictures/vguard-logo.jpg">
+                <h3>V-guard Pumps</h3>
+                <p>An essential adjustable wrench for plumbing and repairs.</p>
+            </div>
+            <!-- Tool 6 -->
+            <div class="tool-item">
+                <img src="pictures/besten-pumps-logo.webp">
+                <h3>Besten Pumps</h3>
+                <p>An essential adjustable wrench for plumbing and repairs.</p>
+            </div>
+            <!-- Add more tools as needed -->
+        </div>
+    </div>
+
+</body>
+</html>
